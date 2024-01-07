@@ -1,0 +1,33 @@
+.nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.nav-1{
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
+.nav-2{
+    width: 25%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: end;
+    position: relative;
+    left: 550px;
+}
+img{
+    padding: 20px 100px;
+    width: 1300px;
+    height: 100px;
+    justify-content: center;
+}
+div{
+    display: inline;
+}
+.heading{
+    display: inline;
+}
+.search-head{
+    position: relative;
+    left: 1100px;
+}

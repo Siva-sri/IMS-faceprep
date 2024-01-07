@@ -1,0 +1,73 @@
+header{
+    background-color: white;
+    font-size: 50px;
+    padding: 20px;
+}
+#one{
+    background-color: rgba(0, 0, 255, 1);
+}
+#two{
+    background-color: rgba(0, 0, 255, 0.8);
+}
+#three{
+    background-color: rgba(0, 0, 255, 0.6);
+}
+#four{
+    background-color:  rgba(0, 0, 255, 0.4);
+}
+#five{
+    background-color:  rgba(0, 0, 255, 0.3);
+}
+#six{
+    background-color:  rgba(0, 0, 255, 0.2);
+}
+#seven{
+    background-color:  rgba(0, 0, 255, 0.1);
+}
+#eight{
+    background-color: rgba(29, 131, 29, 0.8);
+}
+#nine{
+    background-color: rgba(255,0,255,0.1);
+}
+#ten{
+    background-color: rgba(255,0,255,0.2);
+}
+#eleven{
+    background-color: rgba(255,0,255,0.4);
+}
+#twelve{
+    background-color: rgba(255,0,255,0.5);
+}
+#thirteen{
+    background-color: rgba(255,0,255,0.6);
+}
+#fourteen{
+    background-color: rgba(255,0,255,0.8);
+}
+#fifteen{
+    background-color: rgba(255,0,255,1);
+}
+
+/*************************************************Position.html***************************************/
+body {
+    width: 750px;
+    font-family: Arial, Verdana, sans-serif;
+    color: #665544;}
+h1 {
+    background-color: #efefef;
+    padding: 10px;}
+p {
+    width: 450px;
+}
+p.example {
+    position: relative;
+    top: 10px;
+    left: 100px;
+}
+.abs-example{
+position: absolute;
+top: 0px;
+left: 500px;
+width: 250px;
+}

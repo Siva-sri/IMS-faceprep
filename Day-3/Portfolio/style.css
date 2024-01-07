@@ -1,0 +1,120 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.person{
+    border-radius: 50%;
+    margin-left: 30px;
+}
+h1{
+    margin-left: 80px;
+}
+.parent1{
+    border-right: 2px solid;
+    margin-right: 5px;
+}
+svg{
+    height: 10px;
+    width: 10px;
+    padding-right: 2px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin: 10px 5px;
+    background-color: gray;
+    border-radius: 10px;
+    text-align: center;
+}
+.parent{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+p, h3,h2{
+    text-align: center;
+}
+.about{
+    text-align: center;
+}
+.img-parent{
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr;
+    grid-template-rows: 2fr 2fr;
+    gap: 10px;
+    justify-items: center;
+}
+.p-child2 img{
+    height: 200px;
+    width: 200px;
+}
+.image{
+    border: 2px solid;
+    transition: transform .2s;
+}
+.image:hover{
+    transform: scale(1.5);
+}
+.skill{
+    background-color: gray;
+    margin: 20px;
+}
+.contact-parent{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    gap: 10px;
+}
+.contact-child svg{
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+}
+h4{
+    font-size: 20px;
+}
+.contact-child h5{
+    font-size: 20px;
+}
+.links{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.contact-child{
+    background-color: gray;
+    color: white;
+    width: 100%;
+    text-align: center;
+    transition: transform .2s;
+}
+.contact-child:hover{
+    transform: scale(1.5);
+}
+.line{
+    border: 2px solid black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.sparent1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+.sparent2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+.sparent3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    gap: 5px;
+}
+.sparent4{
+    display: grid;
+    justify-items: center;
+}
+.p{
+    background-color: gray;
+    padding: 2px;
+    margin-bottom: 2px;
+    border-radius: 2px;
+}
