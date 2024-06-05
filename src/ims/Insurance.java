@@ -1,5 +1,4 @@
 package ims;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -186,6 +185,7 @@ public class Insurance {
                     }
                     break;
                 case 10:
+                    scanner.close();
                     System.exit(0);
                     break;
                 default:
